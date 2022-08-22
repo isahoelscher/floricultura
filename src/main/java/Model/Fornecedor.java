@@ -5,7 +5,7 @@ import javax.persistence.*;
 import java.util.ArrayList;
 
 @Entity
-@Table(name = "Produto")
+@Table(name = "Fornecedor")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
