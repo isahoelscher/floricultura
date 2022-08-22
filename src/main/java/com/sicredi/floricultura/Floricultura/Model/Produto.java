@@ -1,4 +1,4 @@
-package Model;
+package com.sicredi.floricultura.Floricultura.Model;
 
 import lombok.*;
 

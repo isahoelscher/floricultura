@@ -1,8 +1,9 @@
-package Model;
+package com.sicredi.floricultura.Floricultura.Model;
 import lombok.*;
 
 import javax.persistence.*;
 import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "Fornecedor")
@@ -14,10 +15,10 @@ public class Fornecedor {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String nome;
-    private String cnpj;
+    private String CNPJ;
     private Boolean status;
     @OneToMany
-    private ArrayList<Produto> produtos;
+    private List<Produto> produtos;
 }
 
 /*
